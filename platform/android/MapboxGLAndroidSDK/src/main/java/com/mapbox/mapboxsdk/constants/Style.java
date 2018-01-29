@@ -22,7 +22,7 @@ public class Style {
    * constants means your map style will always use the latest version and may change as we
    * improve the style
    */
-  @StringDef( {MAPBOX_STREETS, OUTDOORS, LIGHT, DARK, SATELLITE, SATELLITE_STREETS, TRAFFIC_DAY, TRAFFIC_NIGHT})
+  @StringDef( {MAPBOX_STREETS, OUTDOORS, LIGHT, DARK, SATELLITE, SATELLITE_STREETS, TRAFFIC_DAY, TRAFFIC_NIGHT, MOMENTA_STREET})
   @Retention(RetentionPolicy.SOURCE)
   public @interface StyleUrl {
   }
@@ -84,4 +84,7 @@ public class Style {
    * may change as we improve the style.
    */
   public static final String TRAFFIC_NIGHT = "mapbox://styles/mapbox/traffic-night-v2";
+
+
+  public static final String MOMENTA_STREET = "http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle";
 }

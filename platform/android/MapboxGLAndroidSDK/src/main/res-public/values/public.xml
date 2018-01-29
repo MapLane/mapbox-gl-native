@@ -91,6 +91,7 @@
     <public name="mapbox_style_satellite_streets" type="string" />
     <public name="mapbox_style_traffic_day" type="string" />
     <public name="mapbox_style_traffic_night" type="string" />
+    <public name="mapbox_style_momenta_street" type="string" />
 
     <!-- Exposed strings -->
     <public name="mapbox_compassContentDescription" type="string" />

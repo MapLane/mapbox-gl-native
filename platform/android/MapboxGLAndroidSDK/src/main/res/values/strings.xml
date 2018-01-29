@@ -26,4 +26,5 @@
     <string name="mapbox_style_satellite_streets" translatable="false">mapbox://styles/mapbox/satellite-streets-v10</string>
     <string name="mapbox_style_traffic_day" translatable="false">mapbox://styles/mapbox/traffic-day-v2</string>
     <string name="mapbox_style_traffic_night" translatable="false">mapbox://styles/mapbox/traffic-night-v2</string>
+    <string name="mapbox_style_momenta_street" translatable="false">http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle</string>
 </resources>
