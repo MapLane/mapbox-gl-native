@@ -422,9 +422,9 @@ void MapWindow::initializeGL()
     connect(m_map.data(), SIGNAL(needsRendering()), this, SLOT(update()));
 
     // Set default location to Helsinki.
-    m_map->setCoordinateZoom(QMapbox::Coordinate(60.170448, 24.942046), 14);
+    m_map->setCoordinateZoom(QMapbox::Coordinate(40, 116), 8);
 
-    QString styleUrl = qgetenv("MAPBOX_STYLE_URL");
+    QString styleUrl = "http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle";//qgetenv("MAPBOX_STYLE_URL");
     if (styleUrl.isEmpty()) {
         changeStyle();
     } else {
