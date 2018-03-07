@@ -17,8 +17,6 @@ xcuserdata
 /test/fixtures/api/2.png
 /test/fixtures/offline_database/offline.db
 /test/fixtures/offline_database/offline.db-*
-/test/fixtures/offline_database/satellite.db
-/test/fixtures/offline_database/satellite.db-*
 /test/fixtures/offline_database/invalid.db
 /test/fixtures/offline_database/invalid.db-*
 /test/fixtures/offline_database/migrated.db
@@ -41,3 +39,9 @@ test/fixtures/storage/assets.zip
 /scripts/generate-cmake-files.list
 /scripts/generate-shaders.list
 /scripts/generate-style-code.list
+
+# vscode
+.vscode
+
+# js
+package-lock.json
