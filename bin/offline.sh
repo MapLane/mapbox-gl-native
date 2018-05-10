@@ -4,8 +4,10 @@ set -e
 set -o pipefail
 
 OFFLINE=./build/macos/Debug/mbgl-offline
-
-$OFFLINE --north 39.8851 --west 116.1524 --south 39.8382 --east 116.2191 --output offline.db --maxZoom 20 --minZoom 3 --style http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle
+#yby
+#$OFFLINE --north 39.8851 --west 116.1524 --south 39.8382 --east 116.2191 --output offline.db --maxZoom 20 --minZoom 3 --style http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle
+#yby+6huan
+$OFFLINE --north 39.89943 --west 116.13251 --south 39.857946 --east 116.210669 --output offline.5.9.db --maxZoom 20 --minZoom 3 --style http://mapeditor.momenta.works:8000/api/styles/5979455ef6c8302ad80e1f17/5a69da24551f80f8ec536342/publishStyle
 
 # Barcelona
 
